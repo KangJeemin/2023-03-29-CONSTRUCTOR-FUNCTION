@@ -6,7 +6,7 @@ class makeFood {
   }
 
   get carbo(){
-    return this._carbo;
+    return this.carbo;
   }
 
   set carbo(value){
@@ -19,6 +19,6 @@ class makeFood {
   }
 }
 
-const a = new makeFood("탄수화물","단백질","지방");
+const a = new makeFood(2,"단백질","지방");
 
 console.log(a)
